@@ -32,8 +32,13 @@
 	width: 90%;
 }
 
-hr {
+.hr-dark {
 	border: 1px solid var(--color-stone-900, #312E2C);
+	width: 100%;
+}
+
+.hr-light {
+	border: 1px solid var(--stone-150);
 	width: 100%;
 }
 
@@ -110,6 +115,7 @@ main {
 .card-help {
 	background-color: var(--rose-50);
 	padding: 24px 24px;
+	border-radius: 16px;
 }
 
 .card-instructions-list {
@@ -121,9 +127,6 @@ main {
 	font-size: 1.5rem;
 }
 
-.card-help-list {
-	list-style: circle;
-}
 
 .btn {
 	display: flex;
